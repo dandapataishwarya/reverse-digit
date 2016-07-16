@@ -9,5 +9,11 @@ void main()
  j=num-1;
  while(i<j)
  {
- temp=num;
+ temp=num[i];
+ num[i]=num[j];
+ num[j]=temp;
+ i++;
+ j--;
+ }
+ printf(" reversed number";);
  
