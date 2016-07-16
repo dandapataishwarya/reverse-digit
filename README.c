@@ -5,7 +5,8 @@ void main()
  int num,i,j,temp
  printf("enter a number:");
  scanf("%d",&num);
- i=num
+ i=0;
+ j=num-1;
  while(i<j)
  {
  temp=num;
