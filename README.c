@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
 {
- int num,i,j,temp
+ int num[10],i,j,temp;
  printf("enter a number:");
  scanf("%d",&num);
  i=0;
@@ -15,5 +15,5 @@ void main()
  i++;
  j--;
  }
- printf(" reversed number";);
- 
+ printf(" reversed number";num);
+} 
